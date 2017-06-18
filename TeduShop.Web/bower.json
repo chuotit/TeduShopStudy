@@ -1,0 +1,8 @@
+{
+    "name": "TeduShop",
+    "private": true,
+    "componentsDirectory": "scripts/plugins/",
+    "dependencies": {
+        "angular": "~1.6.4"
+    }
+}
