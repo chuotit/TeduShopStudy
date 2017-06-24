@@ -22,6 +22,16 @@
                 <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
                 <button class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
             </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" ng-model="keyword" placeholder="Nhập từ khóa...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button" ng-click="search()">Tìm kiếm</button>
+                        </span>
+                    </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+            </div>
         </div>
         <div class="box-body no-padding">
             <table class="table table-striped">
