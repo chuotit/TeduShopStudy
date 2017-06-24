@@ -1,8 +1,17 @@
 {
-    "name": "TeduShop",
-    "private": true,
-    "componentsDirectory": "scripts/plugins/",
+  "name": "TeduShop",
+  "private": true,
+  "directory": "assets/admin/libs",
     "dependencies": {
-        "angular": "~1.6.4"
-    }
+        "angular": "v1.6.5-build.5410+sha.a03b75c",
+        "angular-ui-router": "0.4.2",
+        "bootstrap-sass": "v3.3.7",
+        "font-awesome": "Font-Awesome#v4.7.0",
+        "jQuery": "3.2.1",
+        "admin-lte-sass": "~3.1.2"
+    },
+  "resolutions": {
+    "font-awesome": "v4.7.0",
+    "metisMenu": "~2.7.0"
+  }
 }
