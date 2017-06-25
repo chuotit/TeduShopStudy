@@ -4,15 +4,15 @@
     config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
     function config($stateProvider, $urlRouterProvider) {
-        $stateProvider.state('product_categories', {
-            url: '/product_categories',
+        $stateProvider.state('product-categories', {
+            url: '/product-categories',
             templateUrl: '/app/components/product-categories/productCategoryListView.html',
             controller: 'productCategoryListController'
         })
-        //.state('product_category_add', {
-        //    url: '/product_category_add',
-        //    templateUrl: '/app/components/product-categories/productCategoryAddView.html',
-        //    controller: 'productCategoryAddController'
-        //})
+        .state('product-category-add', {
+            url: '/product-category-add',
+            templateUrl: '/app/components/product-categories/productCategoryAddView.html',
+            controller: 'productCategoryAddController'
+        })
     };
 })();

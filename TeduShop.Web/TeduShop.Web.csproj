@@ -208,6 +208,8 @@
     <Content Include="app\components\home\homeController.js" />
     <Content Include="app\components\home\homeView.html" />
     <Content Include="app\components\product-categories\productCategories.module.js" />
+    <Content Include="app\components\product-categories\productCategoryAddController.js" />
+    <Content Include="app\components\product-categories\productCategoryAddView.html" />
     <Content Include="app\components\product-categories\productCategoryListController.js" />
     <Content Include="app\components\product-categories\productCategoryListView.html" />
     <Content Include="app\components\products\productAddController.js" />
