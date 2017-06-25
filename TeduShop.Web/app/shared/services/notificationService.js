@@ -35,10 +35,10 @@
         function displayError(message) {
             if (Array.isArray(message)) {
                 message.each(function (mes) {
-                    toastr.success(mes);
+                    toastr.error(mes);
                 });
             } else {
-                toastr.success(message);
+                toastr.error(message);
             }
         }
 
