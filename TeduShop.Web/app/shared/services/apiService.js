@@ -7,7 +7,16 @@
         return {
             get: get,
             post: post,
-            put: put
+            put: put,
+            del: del
+        }
+
+        function del(url, params, success, failure) {
+            $http.delete(url, params).then(function (result) {
+                success(result);
+            }, function (error) {
+                failure(error);
+            });
         }
 
         function get(url, params, success, failure) {
