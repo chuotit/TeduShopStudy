@@ -210,6 +210,8 @@
     <Content Include="app\components\product-categories\productCategories.module.js" />
     <Content Include="app\components\product-categories\productCategoryAddController.js" />
     <Content Include="app\components\product-categories\productCategoryAddView.html" />
+    <Content Include="app\components\product-categories\productCategoryEditController.js" />
+    <Content Include="app\components\product-categories\productCategoryEditView.html" />
     <Content Include="app\components\product-categories\productCategoryListController.js" />
     <Content Include="app\components\product-categories\productCategoryListView.html" />
     <Content Include="app\components\products\productAddController.js" />
@@ -223,6 +225,7 @@
     <Content Include="app\shared\filters\statusFilter.js" />
     <Content Include="app\shared\modules\tedushop.common.js" />
     <Content Include="app\shared\services\apiService.js" />
+    <Content Include="app\shared\services\commonService.js" />
     <Content Include="app\shared\services\notificationService.js" />
     <Content Include="bower_components\admin-lte-sass\gulpfile.js" />
     <Content Include="bower_components\admin-lte-sass\javascripts\app.js" />
